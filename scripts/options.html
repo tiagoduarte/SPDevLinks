@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Test Extension Options</title>
+    <style>
+        body{
+            margin:0 auto;
+            width:500px;
+            padding:50px;
+        }
+    </style>
+  </head>
+  <body>
+
+    <label>How would you like the extension's panel to trigger?</label>
+    <br/>
+    <select id="spdevlink-trigger">
+      <option value="mouseover">mouseover only</option>
+      <option value="icon">clickable icon only</option>
+      <option value="both">mouseover + clickable icon</option>
+    </select>
+
+    <div id="status"></div>
+    <button id="save">Save</button>
+
+    <script src="options.js"></script>
+  </body>
+</html>
